@@ -30,6 +30,8 @@
   <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a>
 </p>
 
+[![ibrahim's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ibrahimtosun18&theme=tokyo-night)](https://github.com/ibrahimtosun18/github-readme-activity-graph)
+
 <p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=ibrahimtosun18&show_icons=true&locale=en&layout=compact" alt="ibrahimtosun18" /></p>
 
 <p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=ibrahimtosun18&" alt="ibrahimtosun18" /></p>
