@@ -12,7 +12,7 @@
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
-  <a href="https://linkedin.com/in/i̇brahim tosun" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="i̇brahim tosun" height="30" width="40" /></a>
+  <a href="https://www.linkedin.com/in/ibrahimtosun/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="i̇brahim tosun" height="30" width="40" /></a>
   <a href="https://instagram.com/ibrhim.tsn" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ibrhim.tsn" height="30" width="40" /></a>
 </p>
 
