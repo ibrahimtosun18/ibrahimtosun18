@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="MasterHead">
 </p>
-<h1 align="center">Hi, I'm İbrahim TOSUN</h1>
+<h1 align="center">Hi, I'm İbrahim</h1>
 <h3 align="center">A fully committed Electronics and Communication Engineering student at YTU</h3>
 
 <p align="center"> 🔭 I’m currently working on <strong>Serial Communication Protocols</strong></p>
