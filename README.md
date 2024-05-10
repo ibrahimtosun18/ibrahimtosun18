@@ -6,8 +6,8 @@
 <h3 align="center">An Electronics and Communication Engineering student at YTU</h3>
 
 <p align="center">
-  🔭 I’m currently focusing on <strong>Serial Communication Protocols</strong><br>
-  💬 Feel free to ask me about <strong>Communication protocols</strong><br>
+  🔭 I’m currently focusing on <strong>my personal projects</strong><br>
+  💬 Feel free to ask me about <strong>network communication protocols</strong><br>
   📫 Reach me at <a href="mailto:ibrahim.tsn18@gmail.com"><strong>ibrahim.tsn18@gmail.com</strong></a>
 </p>
 
