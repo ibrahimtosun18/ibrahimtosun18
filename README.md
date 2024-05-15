@@ -44,7 +44,6 @@
   </a>
 </p>
 
-
 <h3 align="center">📊 GitHub Stats:</h3>
 <table align="center">
   <tr>
@@ -73,6 +72,19 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ibrahimtosun18&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views">
+</p>
+
+
+<p align="center">
+  <a href="https://github.com/ABSphreak/readme-jokes">
+    <img src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Jokes Card">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=33F7DD&width=550&lines=Don't+Break+The+Chain!" alt="Typing SVG" style="max-width: 100%; height: auto;">
+  </a>
 </p>
 
 
