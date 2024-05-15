@@ -31,14 +31,20 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40">
 </p>
 
-<p align="center">
-  <a href="https://github.com/ibrahimtosun18/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=ibrahimtosun18&show_icons=true&theme=tokyonight" alt="ibrahim's GitHub Stats" style="display:inline-block; vertical-align:top; height:195px;">
-  </a>
-  <a href="https://github.com/ibrahimtosun18/github-readme-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ibrahimtosun18&theme=tokyonight" alt="ibrahim's Streak" style="display:inline-block; vertical-align:top; height:195px;">
-  </a>
-</p>
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://github.com/ibrahimtosun18/github-readme-stats">
+        <img src="https://github-readme-stats.vercel.app/api?username=ibrahimtosun18&show_icons=true&theme=tokyonight" alt="ibrahim's GitHub Stats" style="height:195px;">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/ibrahimtosun18/github-readme-stats">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ibrahimtosun18&theme=tokyonight" alt="ibrahim's Streak" style="height:195px;">
+      </a>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ibrahimtosun18&theme=tokyo-night" alt="Activity Graph">
