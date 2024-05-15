@@ -33,13 +33,10 @@
 
 <p align="center">
   <a href="https://github.com/ibrahimtosun18/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=ibrahimtosun18&show_icons=true&theme=tokyonight" alt="ibrahim's GitHub Stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=ibrahimtosun18&show_icons=true&theme=tokyonight" alt="ibrahim's GitHub Stats" style="display:inline-block; vertical-align:top; height:195px;">
   </a>
-</p>
-
-<p align="center">
   <a href="https://github.com/ibrahimtosun18/github-readme-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ibrahimtosun18&theme=tokyonight" alt="ibrahim's Streak">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ibrahimtosun18&theme=tokyonight" alt="ibrahim's Streak" style="display:inline-block; vertical-align:top; height:195px;">
   </a>
 </p>
 
