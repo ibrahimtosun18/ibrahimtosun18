@@ -6,6 +6,12 @@
 <h3 align="center">An Electronics and Communication Engineering student at YTU</h3>
 
 <p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=33F7DD&width=550&lines=Welcome+to+my+GitHub+profile!;I'm+an+Electronics+and+Communication+Engineering+student;I'm+focusing+on+personal+projects" alt="Typing SVG" style="max-width: 100%; height: auto;">
+  </a>
+</p>
+
+<p align="center">
   🔭 I’m currently focusing on <strong>my personal projects</strong><br>
   💬 Feel free to ask me about <strong>network communication protocols</strong><br>
   📫 Reach me at <a href="mailto:ibrahim.tsn18@gmail.com"><strong>ibrahim.tsn18@gmail.com</strong></a>
@@ -31,6 +37,15 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40">
 </p>
 
+<h3 align="center">🏆 GitHub Trophies:</h3>
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=ibrahimtosun18&theme=onedark&no-frame=true&margin-w=15" alt="GitHub Trophies">
+  </a>
+</p>
+
+
+<h3 align="center">📊 GitHub Stats:</h3>
 <table align="center">
   <tr>
     <td>
@@ -47,5 +62,17 @@
 </table>
 
 <p align="center">
+  <a href="https://github.com/ibrahimtosun18/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimtosun18&layout=compact&theme=tokyonight" alt="Top Languages">
+  </a>
+</p>
+
+<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ibrahimtosun18&theme=tokyo-night" alt="Activity Graph">
 </p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=ibrahimtosun18&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views">
+</p>
+
+
