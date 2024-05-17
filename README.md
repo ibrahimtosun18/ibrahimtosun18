@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Hi, I'm İbrahim</h1>
-<h3 align="center">An Electronics and Communication Engineering student at YTU</h3>
+
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
@@ -12,7 +12,6 @@
 </p>
 
 <p align="center">
-  🔭 I’m currently focusing on <strong>my personal projects</strong><br>
   💬 Feel free to ask me about <strong>network communication protocols</strong><br>
   📫 Reach me at <a href="mailto:ibrahim.tsn18@gmail.com"><strong>ibrahim.tsn18@gmail.com</strong></a>
 </p>
