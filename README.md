@@ -22,6 +22,9 @@
   <a href="https://instagram.com/ibrhim.tsn" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ibrhim.tsn" height="30" width="40"></a>
 </p>
 
+# Hi, I'm İbrahim
+
+<!-- Your existing personal README content here -->
 
 # Interactive Battleship Game
 
@@ -44,30 +47,13 @@
 
 When you click a link, it opens a GitHub Issue with the required pre-populated text. Just push "Create New Issue". That will trigger a GitHub Actions workflow that'll update this README.md with the new state of the board.
 
-### Attack a position
+#### Attack a position
 
 | Attack | - _click one of the links to attack a position_ |
 | ------ | ---------------------------------------------- |
-| **A1** | [Attack A1](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Ca1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **A2** | [Attack A2](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Ca2&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **A3** | [Attack A3](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Ca3&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **A4** | [Attack A4](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Ca4&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **A5** | [Attack A5](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Ca5&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **A6** | [Attack A6](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Ca6&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **A7** | [Attack A7](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Ca7&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **A8** | [Attack A8](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Ca8&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **A9** | [Attack A9](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Ca9&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **A10** | [Attack A10](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Ca10&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **B1** | [Attack B1](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Cb1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| ... | ... |
-
-
-### Last few moves, this game
-
-| Move  | Who |
-| ----- | --- |
-| A1 - Miss | [@player1](https://github.com/player1) |
-| B2 - Hit | [@player2](https://github.com/player2) |
+| **A1** | [Attack A1](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ca1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **A2** | [Attack A2](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ca2&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **A3** | [Attack A3](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ca3&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
 
 
 
