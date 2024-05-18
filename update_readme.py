@@ -33,7 +33,8 @@ def update_readme(move):
 
     # Debug: Print updated README content
     with open("README.md", "r") as file:
-        print(file.read())
+        updated_content = file.read()
+        print(updated_content)
 
 if __name__ == "__main__":
     move = sys.argv[1]
