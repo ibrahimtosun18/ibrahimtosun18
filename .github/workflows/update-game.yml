@@ -14,7 +14,7 @@ jobs:
     - name: Update README
       run: |
         python update_readme.py "${{ github.event.issue.title }}"
-      
+     
     - name: Commit changes
       run: |
         git config --global user.name 'github-actions'
