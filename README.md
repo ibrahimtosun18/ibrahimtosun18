@@ -22,6 +22,46 @@
   <a href="https://instagram.com/ibrhim.tsn" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ibrhim.tsn" height="30" width="40"></a>
 </p>
 
+
+# Interactive Battleship Game
+
+**Game is in progress.** This is open to ANYONE to play the next move. :wave: It's your turn! Attack a position.
+
+|   | A | B | C | D | E | F | G | H | I | J |
+| - | - | - | - | - | - | - | - | - | - | - |
+| 1 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
+| 2 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
+| 3 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
+| 4 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
+| 5 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
+| 6 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
+| 7 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
+| 8 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
+| 9 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
+| 10| 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
+
+### Instructions
+
+When you click a link, it opens a GitHub Issue with the required pre-populated text. Just push "Create New Issue". That will trigger a GitHub Actions workflow that'll update this README.md with the new state of the board.
+
+#### Attack a position
+
+| Attack | - _click one of the links to attack a position_ |
+| ------ | ---------------------------------------------- |
+| **A1** | [Attack A1](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Ca1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **A2** | [Attack A2](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Ca2&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **A3** | [Attack A3](https://github.com/ibrahimtosun18/interactive-battleship/issues/new?title=battleship%7Cattack%7Ca3&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| ... | ... |
+
+### Last few moves, this game
+
+| Move  | Who |
+| ----- | --- |
+| A1 - Miss | [@player1](https://github.com/player1) |
+| B2 - Hit | [@player2](https://github.com/player2) |
+
+
+
 <h3 align="center">🛠️ Languages and Tools:</h3>
 <p align="center">
   <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino" width="40" height="40">
