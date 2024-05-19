@@ -23,10 +23,11 @@ def update_readme(move):
 
     # Update the board
     for i, line in enumerate(readme):
-        if i == row + 2:
+        if i == row + 2:  # Adjust for the header lines
             parts = line.split('|')
-            parts[col] = '🔥'
-            readme[i] = '|'.join(parts)
+            if col < len(parts):
+                parts[col] = '🔥'
+                readme[i] = '|'.join(parts)
 
     with open("README.md", "w") as file:
         file.writelines(readme)
