@@ -32,6 +32,7 @@ def update_readme(move):
         print(line, end='')
 
     # Update the board
+    updated = False
     for i, line in enumerate(readme):
         if i == row + 2:  # Adjust for the header lines
             parts = line.split('|')
@@ -40,8 +41,13 @@ def update_readme(move):
                 print(f"Line before modification: {line.strip()}")
                 parts[col] = '🔥'
                 readme[i] = '|'.join(parts) + '\n'
+                updated = True
                 # Debug: Print the line after modification
                 print(f"Line after modification: {readme[i].strip()}")
+
+    if not updated:
+        print("No updates made to the board.")
+        sys.exit(1)
 
     with open("README.md", "w") as file:
         file.writelines(readme)
