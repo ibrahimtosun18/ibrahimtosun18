@@ -26,6 +26,10 @@ jobs:
     - name: Update README
       run: |
         python update_readme.py "${{ github.event.issue.title }}"
+    
+    - name: Force changes detection
+      run: |
+        touch README.md
 
     - name: Commit changes
       run: |
