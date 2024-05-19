@@ -40,7 +40,11 @@ def update_readme(move):
             if col < len(parts):
                 # Debug: Print the line before modification
                 print(f"Line before modification: {line.strip()}")
-                parts[col] = '🔥'
+                # Check if it's a ship or water
+                if parts[col].strip() == '🚢':
+                    parts[col] = '🔥'  # Hit a ship
+                else:
+                    parts[col] = '❌'  # Missed
                 readme[i] = '|'.join(parts) + '\n'
                 updated = True
                 # Debug: Print the line after modification
