@@ -21,6 +21,11 @@ def update_readme(move):
     # Debug: Print parsed column and row
     print(f"Parsed move: column {col}, row {row}")
 
+    # Ensure the column and row indices are within the board boundaries
+    if col < 1 or col > 10 or row < 1 or row > 10:
+        print("Move is out of board boundaries")
+        sys.exit(1)
+
     # Update the board
     for i, line in enumerate(readme):
         if i == row + 2:  # Adjust for the header lines
