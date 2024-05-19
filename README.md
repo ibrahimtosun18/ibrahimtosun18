@@ -25,7 +25,6 @@
 # Hi, I'm İbrahim
 
 <!-- Your existing personal README content here -->
-
 # Interactive Battleship Game
 
 **Game is in progress.** This is open to ANYONE to play the next move. :wave: It's your turn! Attack a position.
@@ -54,6 +53,7 @@ When you click a link, it opens a GitHub Issue with the required pre-populated t
 | **A1** | [Attack A1](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ca1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
 | **A2** | [Attack A2](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ca2&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
 | **A3** | [Attack A3](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ca3&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+...
 
 
 
