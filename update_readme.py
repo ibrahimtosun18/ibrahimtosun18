@@ -37,11 +37,11 @@ def update_readme(move):
             parts = line.split('|')
             if col < len(parts):
                 # Debug: Print the line before modification
-                print(f"Line before modification: {line}")
+                print(f"Line before modification: {line.strip()}")
                 parts[col] = '🔥'
-                readme[i] = '|'.join(parts)
+                readme[i] = '|'.join(parts) + '\n'
                 # Debug: Print the line after modification
-                print(f"Line after modification: {readme[i]}")
+                print(f"Line after modification: {readme[i].strip()}")
 
     with open("README.md", "w") as file:
         file.writelines(readme)
