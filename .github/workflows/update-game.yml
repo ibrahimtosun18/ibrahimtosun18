@@ -33,6 +33,6 @@ jobs:
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
-        git add README.md
-        git commit -m "Update game state: ${{ github.event.issue.title }}"
-        git push
+        git add README.md || true
+        git commit -m "Update game state: ${{ github.event.issue.title }}" || true
+        git push || true
