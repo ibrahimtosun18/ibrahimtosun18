@@ -26,6 +26,11 @@ def update_readme(move):
         print("Move is out of board boundaries")
         sys.exit(1)
 
+    # Debug: Print before updating the board
+    print("Board before update:")
+    for line in readme:
+        print(line, end='')
+
     # Update the board
     for i, line in enumerate(readme):
         if i == row + 2:  # Adjust for the header lines
@@ -38,6 +43,7 @@ def update_readme(move):
         file.writelines(readme)
 
     # Debug: Print updated README content
+    print("Board after update:")
     with open("README.md", "r") as file:
         updated_content = file.read()
         print(updated_content)
