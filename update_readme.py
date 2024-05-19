@@ -36,8 +36,12 @@ def update_readme(move):
         if i == row + 2:  # Adjust for the header lines
             parts = line.split('|')
             if col < len(parts):
+                # Debug: Print the line before modification
+                print(f"Line before modification: {line}")
                 parts[col] = '🔥'
                 readme[i] = '|'.join(parts)
+                # Debug: Print the line after modification
+                print(f"Line after modification: {readme[i]}")
 
     with open("README.md", "w") as file:
         file.writelines(readme)
