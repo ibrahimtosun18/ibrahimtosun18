@@ -24,20 +24,23 @@
 
 # Hi, I'm İbrahim
 
+# Hi, I'm İbrahim
+
 <!-- Your existing personal README content here -->
+
 # Interactive Battleship Game
 
 **Game is in progress.** This is open to ANYONE to play the next move. :wave: It's your turn! Attack a position.
 
 |   | A | B | C | D | E | F | G | H | I | J |
 | - | - | - | - | - | - | - | - | - | - | - |
-| 1 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
-| 2 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
-| 3 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
-| 4 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
-| 5 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
-| 6 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
-| 7 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
+| 1 | 🚢 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🚢 |
+| 2 | 🚢 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🚢 |
+| 3 | 🚢 | 🌊 | 🚢 | 🚢 | 🚢 | 🚢 | 🌊 | 🌊 | 🌊 | 🌊 |
+| 4 | 🚢 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
+| 5 | 🚢 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🚢 | 🌊 | 🌊 |
+| 6 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🚢 | 🌊 | 🌊 |
+| 7 | 🌊 | 🌊 | 🌊 | 🚢 | 🚢 | 🚢 | 🌊 | 🚢 | 🌊 | 🌊 |
 | 8 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
 | 9 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
 | 10| 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
@@ -53,7 +56,20 @@ When you click a link, it opens a GitHub Issue with the required pre-populated t
 | **A1** | [Attack A1](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ca1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
 | **A2** | [Attack A2](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ca2&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
 | **A3** | [Attack A3](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ca3&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-...
+| **A4** | [Attack A4](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ca4&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **A5** | [Attack A5](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ca5&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **C3** | [Attack C3](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Cc3&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **D3** | [Attack D3](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Cd3&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **E3** | [Attack E3](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ce3&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **F3** | [Attack F3](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Cf3&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **H5** | [Attack H5](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ch5&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **H6** | [Attack H6](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ch6&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **H7** | [Attack H7](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ch7&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **D7** | [Attack D7](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Cd7&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **E7** | [Attack E7](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Ce7&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **F7** | [Attack F7](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Cf7&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **J1** | [Attack J1](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Cj1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+| **J2** | [Attack J2](https://github.com/ibrahimtosun18/ibrahimtosun18/issues/new?title=battleship%7Cattack%7Cj2&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
 
 
 
