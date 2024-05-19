@@ -33,8 +33,9 @@ def update_readme(move):
 
     # Update the board
     updated = False
+    board_start = readme.index("|   | A | B | C | D | E | F | G | H | I | J |\n") + 2
     for i, line in enumerate(readme):
-        if i == row + 2:  # Adjust for the header lines
+        if i == board_start + row - 1:
             parts = line.split('|')
             if col < len(parts):
                 # Debug: Print the line before modification
