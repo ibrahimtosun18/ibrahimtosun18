@@ -57,12 +57,10 @@ def update_readme(move):
     with open("README.md", "w") as file:
         file.writelines(readme)
 
-    # Debug: Print updated README content
-    print("Board after update:")
-    with open("README.md", "r") as file:
-        updated_content = file.read()
-        print(updated_content)
-
+# Main execution
 if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python update_readme.py <move>")
+        sys.exit(1)
     move = sys.argv[1]
     update_readme(move)
