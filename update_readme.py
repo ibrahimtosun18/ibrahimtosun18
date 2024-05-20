@@ -25,7 +25,7 @@ def update_readme(move):
             print(f"Line before modification: {lines[i].strip()}")
             parts = lines[i].split(" | ")
             parts[col + 1] = "🔥" if parts[col + 1] == "🚢" else "❌"
-            lines[i] = " | ".join(parts) + "\n"
+            lines[i] = " | ".join(parts) + " |\n"
             print(f"Line after modification: {lines[i].strip()}")
             found = True
             break
@@ -36,6 +36,7 @@ def update_readme(move):
 
     with open("README.md", "w") as file:
         file.writelines(lines)
+        print("README.md file has been updated.")
 
 if __name__ == "__main__":
     move = sys.argv[1]
