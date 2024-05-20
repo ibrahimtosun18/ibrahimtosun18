@@ -10,8 +10,13 @@ def update_readme(move):
         col = ord(move_re.group(1).upper()) - ord('A') + 1
         row = int(move_re.group(2))
 
-        board_start = readme_content.index("|   | A | B | C | D | E | F | G | H | I | J |\n") + 2
-        board_end = board_start + 10
+        # Find the board start and end positions
+        try:
+            board_start = readme_content.index("|   | A | B | C | D | E | F | G | H | I | J |\n") + 2
+            board_end = board_start + 10
+        except ValueError:
+            print("Error: Could not find the board in README.md")
+            return
 
         board_lines = readme_content[board_start:board_end]
 
