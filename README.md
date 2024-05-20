@@ -26,7 +26,7 @@
 
 <!-- Your existing personal README content here -->
 
-# Interactive Battleship Game
+# Interactive Battleship Game (CURRENTLY UNDER DEVELOPMENT)
 
 **Game is in progress.** This is open to ANYONE to play the next move. :wave: It's your turn! Attack a position.
 
