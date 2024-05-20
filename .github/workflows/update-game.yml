@@ -7,7 +7,6 @@ on:
 jobs:
   update-game:
     runs-on: ubuntu-latest
-    if: startsWith(github.event.issue.title, 'battleship|attack|')
     steps:
     - name: Check out repository
       uses: actions/checkout@v3
@@ -15,24 +14,33 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'
+        python-version: '3.12'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        pip install requests
 
     - name: Update README
       run: |
         python update_readme.py "${{ github.event.issue.title }}"
-    
+
     - name: Force changes detection
-      run: |
-        touch README.md
+      run: git status
 
     - name: Commit changes
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
-        git add README.md || true
-        git commit -m "Update game state: ${{ github.event.issue.title }}" || true
-        git push || true
+        git add README.md
+        git commit -m "Update game state: ${{ github.event.issue.title }}"
+        git push
+
+    - name: Post Set up Python
+      run: echo "Python set up done."
+
+    - name: Post Check out repository
+      run: echo "Repository checked out."
+
+    - name: Complete job
+      run: echo "Job completed."
