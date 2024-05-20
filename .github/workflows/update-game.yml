@@ -29,18 +29,11 @@ jobs:
       run: git status
 
     - name: Commit changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add README.md
         git commit -m "Update game state: ${{ github.event.issue.title }}"
         git push
-
-    - name: Post Set up Python
-      run: echo "Python set up done."
-
-    - name: Post Check out repository
-      run: echo "Repository checked out."
-
-    - name: Complete job
-      run: echo "Job completed."
