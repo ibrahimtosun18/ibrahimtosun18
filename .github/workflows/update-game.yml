@@ -30,7 +30,7 @@ jobs:
 
     - name: Commit changes
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PAT }}
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
