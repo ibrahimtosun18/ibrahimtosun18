@@ -7,7 +7,7 @@ def update_readme(move):
     position = parts[2]
 
     column = position[0]
-    row = position[1]
+    row = position[1:]
 
     columns = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
     col = columns.index(column)
