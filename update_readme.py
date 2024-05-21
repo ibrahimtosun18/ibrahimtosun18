@@ -25,7 +25,7 @@ def update_readme(move):
             print(f"Line before modification: {lines[i].strip()}")
             parts = lines[i].split(" | ")
             parts[col + 1] = "🔥" if parts[col + 1] == "🚢" else "❌"
-            lines[i] = " | ".join(parts) + " |\n"
+            lines[i] = " | ".join(parts).strip() + " |\n"
             print(f"Line after modification: {lines[i].strip()}")
             found = True
             break
