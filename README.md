@@ -22,15 +22,13 @@
   <a href="https://instagram.com/ibrhim.tsn" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ibrhim.tsn" height="30" width="40"></a>
 </p>
 
-# Hi, I'm İbrahim
 # Interactive Battleship Game (CURRENTLY UNDER DEVELOPMENT)
 
 **Game is in progress.** This is open to ANYONE to play the next move. :wave: It's your turn! Attack a position.
 
 |   | A | B | C | D | E | F | G | H | I | J |
 | - | - | - | - | - | - | - | - | - | - | - |
-| 1 | ❌ | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
- |
+| 1 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
 | 2 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
 | 3 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
 | 4 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 | 🌊 |
