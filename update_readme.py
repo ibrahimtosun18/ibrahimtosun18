@@ -24,10 +24,8 @@ def update_readme(move):
         if lines[i].startswith(f"| {row} |"):
             print(f"Line before modification: {lines[i].strip()}")
             parts = lines[i].split(" | ")
-            if parts[col + 1] == "🌊":
-                parts[col + 1] = "❌"
-            elif parts[col + 1] == "🚢":  # hidden ship
-                parts[col + 1] = "🔥"
+            if parts[col + 1] == "🌊" or parts[col + 1] == "🚢":
+                parts[col + 1] = "❌" if parts[col + 1] == "🌊" else "🔥"
             lines[i] = " | ".join(parts) + "\n"
             print(f"Line after modification: {lines[i].strip()}")
             found = True
