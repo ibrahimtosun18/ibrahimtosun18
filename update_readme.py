@@ -7,7 +7,7 @@ def update_readme(move):
     position = parts[2]
 
     column = position[0]
-    row = position[1]
+    row = position[1:]
 
     columns = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
     col = columns.index(column)
@@ -24,11 +24,11 @@ def update_readme(move):
         if lines[i].startswith(f"| {row} |"):
             print(f"Line before modification: {lines[i].strip()}")
             parts = lines[i].split(" | ")
-            if parts[col + 1] == "🚢":
-                parts[col + 1] = "🔥"
-            elif parts[col + 1] == "🌊":
+            if parts[col + 1] == "🌊":
                 parts[col + 1] = "❌"
-            lines[i] = " | ".join(parts) + " |\n"
+            elif parts[col + 1] == "🚢":  # hidden ship
+                parts[col + 1] = "🔥"
+            lines[i] = " | ".join(parts) + "\n"
             print(f"Line after modification: {lines[i].strip()}")
             found = True
             break
