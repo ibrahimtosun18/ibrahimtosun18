@@ -17,10 +17,6 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
-
     - name: Update README
       run: python update_readme.py "${{ github.event.issue.title }}"
 
