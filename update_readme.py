@@ -1,47 +1,46 @@
 import sys
 
-def update_readme
-import sys
-
 def update_readme(move):
-move = move.strip().lower()
-parts = move.split("|")
-action = parts[1]
-position = parts[2]
-column = position[0]
-row = position[1:]
+    move = move.strip().lower()
+    parts = move.split("|")
+    action = parts[1]
+    position = parts[2]
 
-columns = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
-col = columns.index(column)
-row = int(row)
+    column = position[0]
+    row = position[1:]
 
-with open("README.md", "r") as file:
-    lines = file.readlines()
+    columns = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+    col = columns.index(column)
+    row = int(row)
 
-print(f"Received move: {move}")
-print(f"Parsed move: column {col + 1}, row {row}")
+    with open("README.md", "r") as file:
+        lines = file.readlines()
 
-found = False
-for i in range(len(lines)):
-    if lines[i].startswith(f"| {row} |"):
-        print(f"Line before modification: {lines[i].strip()}")
-        parts = lines[i].split(" | ")
-        if parts[col + 1] == "🌊":
-            parts[col + 1] = "❌"
-        elif parts[col + 1] == "🌊":
-            parts[col + 1] = "🔥"
-        lines[i] = " | ".join(parts) + " |\n"
-        print(f"Line after modification: {lines[i].strip()}")
-        found = True
-        break
+    print(f"Received move: {move}")
+    print(f"Parsed move: column {col + 1}, row {row}")
 
-if not found:
-    print("No updates made to the board.")
-    sys.exit(1)
+    found = False
+    for i in range(len(lines)):
+        if lines[i].startswith(f"| {row} |"):
+            print(f"Line before modification: {lines[i].strip()}")
+            parts = lines[i].split(" | ")
+            if parts[col + 1] == "🌊":
+                parts[col + 1] = "❌"
+            elif parts[col + 1] == "🚢":
+                parts[col + 1] = "🔥"
+            lines[i] = " | ".join(parts) + " |\n"
+            print(f"Line after modification: {lines[i].strip()}")
+            found = True
+            break
 
-with open("README.md", "w") as file:
-    file.writelines(lines)
-    print("README.md file has been updated.")
-if name == "main":
-move = sys.argv[1]
-update_readme(move)
+    if not found:
+        print("No updates made to the board.")
+        sys.exit(1)
+
+    with open("README.md", "w") as file:
+        file.writelines(lines)
+        print("README.md file has been updated.")
+
+if __name__ == "__main__":
+    move = sys.argv[1]
+    update_readme(move)
