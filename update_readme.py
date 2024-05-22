@@ -23,7 +23,7 @@ def update_readme(move):
     for i in range(len(lines)):
         if lines[i].startswith(f"| {row} |"):
             print(f"Line before modification: {lines[i].strip()}")
-            parts = lines[i].split(" | ")
+            parts = lines[i].strip().split(" | ")
             if parts[col + 1] == "🌊":
                 parts[col + 1] = "❌"
             elif parts[col + 1] == "🚢":
