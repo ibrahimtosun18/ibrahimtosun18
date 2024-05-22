@@ -22,9 +22,10 @@
   <a href="https://instagram.com/ibrhim.tsn" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ibrhim.tsn" height="30" width="40"></a>
 </p>
 
-# Interactive Battleship Game (CURRENTLY UNDER DEVELOPMENT)
+# Interactive Battleship Game
 
-**Game is in progress.** This is open to ANYONE to play the next move. :wave: It's your turn! Attack a position.
+This is open to ANYONE to play the next move. :wave: It's your turn! Attack a position.
+You will see 🔥 if you hit a ship and ❌ if you don't. Choose a spot to attack. Enjoy the game!
 
 |   | A | B | C | D | E | F | G | H | I | J |
 | - | - | - | - | - | - | - | - | - | - | - |
