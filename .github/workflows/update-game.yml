@@ -1,4 +1,4 @@
-name: Update Battleship Game
+name: "Update Battleship Game"
 
 on:
   issues:
@@ -9,26 +9,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check out repository
-      uses: actions/checkout@v3
+      - name: Check out repository
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-    - name: Update README
-      run: python update_readme.py "${{ github.event.issue.title }}"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
 
-    - name: Force changes detection
-      run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add README.md
-        git commit -m "Update game state: ${{ github.event.issue.title }}" || echo "No changes to commit"
+      - name: Update README
+        run: python update_readme.py "${{ github.event.issue.title }}"
 
-    - name: Commit changes
-      if: success()
-      run: git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Force changes detection
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add README.md
+          git commit -m "Update game state: ${{ github.event.issue.title }}" || echo "No changes to commit"
+          git push
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update game state: ${{ github.event.issue.title }}"
+          commit_user_name: "github-actions"
+          commit_user_email: "github-actions@github.com"
+          branch: "main"
+          file_pattern: "README.md"
+          token: ${{ secrets.GITHUB_TOKEN }}
