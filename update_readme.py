@@ -1,5 +1,19 @@
 import sys
 
+# Define the initial board with hidden ships
+initial_board = [
+    ["🌊", "🌊", "🌊", "🌊", "🚢", "🌊", "🌊", "🌊", "🌊", "🚢"],
+    ["🚢", "🌊", "🌊", "🌊", "🚢", "🌊", "🌊", "🌊", "🌊", "🚢"],
+    ["🚢", "🌊", "🚢", "🚢", "🚢", "🚢", "🌊", "🌊", "🌊", "🌊"],
+    ["🚢", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊"],
+    ["🚢", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🚢", "🌊", "🌊"],
+    ["🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🚢", "🌊", "🌊"],
+    ["🌊", "🌊", "🌊", "🚢", "🚢", "🚢", "🌊", "🚢", "🌊", "🌊"],
+    ["🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🚢"],
+    ["🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🚢"],
+    ["🚢", "🚢", "🚢", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊", "🌊"]
+]
+
 def update_readme(move):
     move = move.strip().lower()
     parts = move.split("|")
@@ -11,23 +25,23 @@ def update_readme(move):
 
     columns = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
     col = columns.index(column)
-    row = int(row)
+    row = int(row) - 1  # adjust row to be 0-indexed
 
     with open("README.md", "r") as file:
         lines = file.readlines()
 
     print(f"Received move: {move}")
-    print(f"Parsed move: column {col + 1}, row {row}")
+    print(f"Parsed move: column {col + 1}, row {row + 1}")
 
     found = False
     for i in range(len(lines)):
-        if lines[i].startswith(f"| {row} |"):
+        if lines[i].startswith(f"| {row + 1} |"):
             print(f"Line before modification: {lines[i].strip()}")
             parts = lines[i].strip().split(" | ")
-            if parts[col + 1] == "🌊":
-                parts[col + 1] = "❌"
-            elif parts[col + 1] == "🚢":
+            if initial_board[row][col] == "🚢":
                 parts[col + 1] = "🔥"
+            else:
+                parts[col + 1] = "❌"
             lines[i] = " | ".join(parts) + " |\n"
             print(f"Line after modification: {lines[i].strip()}")
             found = True
